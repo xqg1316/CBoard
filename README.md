@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## CBoard
 CBoard is not only a analysis platform that supports interactive multi-dimensional report design and data analysis for user, but also a BI product development platform for developer.
 Powered by [Shanhai Chuguo Information and Technology Co., Ltd.](http://www.chuguotech.com/)
@@ -52,6 +51,7 @@ Any bugs or question please feel free to post at Github[Issue system](https://gi
 
 ## More Document
 - [帮助文档](http://peter_zhang921.gitee.io/cboard_docsify/#/zh-cn/)
+<<<<<<< HEAD
 - [Document](https://tuiqiao.github.io/CBoardDoc/#/en-us/)
 =======
 # CBoard
@@ -92,3 +92,6 @@ Any bugs or question please feel free to post at Github[Issue system](https://gi
 5. 码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
 6. 码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
 >>>>>>> 501e519a7f8d0e360495fe7604b984ae6213087f
+=======
+- [Document](https://tuiqiao.github.io/CBoardDoc/#/en-us/)
+>>>>>>> cae6a645fe6f937a71578d8c81071009ab224f18

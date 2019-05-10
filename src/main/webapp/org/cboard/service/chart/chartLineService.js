@@ -184,6 +184,7 @@ cBoard.service('chartLineService', function ($state, $window) {
              * 修改charLineService.js文件
              */
             // series: series_data//替换成下面的形式
+
             series: series_data.map(function (item) {
                 item.label = {
                     normal: {
