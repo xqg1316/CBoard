@@ -171,8 +171,9 @@ public class SolrDataProvider extends DataProvider implements Aggregatable, Init
 
         solrQuery.set("q", q);
         String[] fqArr = fqs.split(",");
-        for (String fq : fqArr)
+        for (String fq : fqArr) {
             solrQuery.set("fq", fq.trim());
+        }
         solrQuery.set("fl", fl);
         solrQuery.set("sort", sort);
         solrQuery.setStart(start);
@@ -233,11 +234,13 @@ public class SolrDataProvider extends DataProvider implements Aggregatable, Init
 
     public String[][] getSolrData() throws Exception {
         String solrServers = dataSource.get("solrServers");
-        if (StringUtils.isBlank(solrServers))
+        if (StringUtils.isBlank(solrServers)) {
             throw new CBoardException("Datasource config Solr Servers can not be empty.");
+        }
         String collectionName = query.get("collection");
-        if (StringUtils.isBlank(collectionName))
+        if (StringUtils.isBlank(collectionName)) {
             throw new CBoardException("Collection can not be empty.");
+        }
 
         QueryResponse qs = getQueryResponse(solrServers, collectionName, getSolrQuery());
 
@@ -327,11 +330,13 @@ public class SolrDataProvider extends DataProvider implements Aggregatable, Init
     @Override
     public String[] getColumn() throws Exception {
         String solrServers = dataSource.get("solrServers");
-        if (StringUtils.isBlank(solrServers))
+        if (StringUtils.isBlank(solrServers)) {
             throw new CBoardException("Datasource config Solr Servers can not be empty.");
+        }
         String collectionName = query.get("collection");
-        if (StringUtils.isBlank(collectionName))
+        if (StringUtils.isBlank(collectionName)) {
             throw new CBoardException("Collection can not be empty.");
+        }
 
         QueryResponse qs = getQueryResponse(solrServers, collectionName, getSolrQuery());
 
