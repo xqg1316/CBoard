@@ -1,5 +1,6 @@
 /**
  * Created by yfyuan on 2016/10/28.
+ * 雷达图
  */
 'use strict';
 cBoard.service('chartRadarService', function ($state, $window) {

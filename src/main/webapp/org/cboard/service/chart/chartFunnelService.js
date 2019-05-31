@@ -1,5 +1,6 @@
 /**
  * Created by yfyuan on 2016/10/28.
+ * 漏斗图
  */
 'use strict';
 cBoard.service('chartFunnelService', function ($state, $window) {

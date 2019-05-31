@@ -1,5 +1,6 @@
 /**
  * Created by Junjie.M on 2017/07/26.
+ * 热点图(表格)
  */
 'use strict';
 cBoard.service('chartHeatMapTableService', function () {

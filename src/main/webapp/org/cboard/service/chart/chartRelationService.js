@@ -1,5 +1,6 @@
 /**
  * Created by hjtoday on 2017/08/17.
+ * 关系图
  */
 'use strict';
 cBoard.service('chartRelationService', function () {

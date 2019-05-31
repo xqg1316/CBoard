@@ -1,5 +1,6 @@
 /**
  * Created by Junjie.M on 2017/07/21.
+ * 矩形树图
  */
 'use strict';
 cBoard.service('chartTreeMapService', function ($state, $window) {

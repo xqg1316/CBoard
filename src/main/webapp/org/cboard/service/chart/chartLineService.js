@@ -1,5 +1,6 @@
 /**
  * Created by yfyuan on 2016/10/28.
+ * 折线图
  */
 'use strict';
 cBoard.service('chartLineService', function ($state, $window) {

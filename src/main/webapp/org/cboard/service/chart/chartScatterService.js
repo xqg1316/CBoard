@@ -1,5 +1,6 @@
 /**
  * Created by yfyuan on 2017/03/03.
+ * 散点图
  */
 'use strict';
 cBoard.service('chartScatterService', function (dataService) {

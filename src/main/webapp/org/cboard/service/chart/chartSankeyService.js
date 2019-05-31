@@ -1,5 +1,6 @@
 /**
  * Created by yfyuan on 2016/10/28.
+ * 桑基图
  */
 'use strict';
 cBoard.service('chartSankeyService', function ($state, $window) {

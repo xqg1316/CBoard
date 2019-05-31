@@ -1,5 +1,6 @@
 /**
  * Created by yfyuan on 2016/10/28.
+ * 饼图
  */
 'use strict';
 cBoard.service('chartPieService', function ($state, $window) {

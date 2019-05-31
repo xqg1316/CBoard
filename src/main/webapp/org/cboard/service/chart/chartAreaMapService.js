@@ -1,5 +1,6 @@
 /**
  * Created by hj on 2017/07/26.
+ * 区域地图
  */
 cBoard.service('chartAreaMapService', function ($state, $window) {
     this.render = function (containerDom, option, scope, persist, drill, relations, chartConfig) {

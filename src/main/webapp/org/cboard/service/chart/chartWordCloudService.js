@@ -1,5 +1,6 @@
 /**
  * Created by Junjie.M on 2017/07/20.
+ * 标签云
  */
 'use strict';
 cBoard.service('chartWordCloudService', function ($state, $window) {

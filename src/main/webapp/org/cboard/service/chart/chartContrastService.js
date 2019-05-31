@@ -1,5 +1,6 @@
 /**
  * Created by yfyuan on 2016/10/28.
+ * 对比图
  */
 'use strict';
 cBoard.service('chartContrastService', function () {

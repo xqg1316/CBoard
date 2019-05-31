@@ -1,5 +1,6 @@
 /**
  * Created by Junjie.M on 2017/07/26.
+ * 热点图(日历)
  */
 'use strict';
 cBoard.service('chartHeatMapCalendarService', function () {

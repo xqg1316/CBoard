@@ -1,5 +1,6 @@
 /**
  * Created by jintian on 2017/8/22.
+ * 中国地图(本地)
  */
 cBoard.service('chartChinaMapService', function () {
     this.render = function (containerDom, option, scope, persist,drill) {

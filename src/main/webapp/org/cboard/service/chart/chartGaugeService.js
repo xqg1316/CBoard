@@ -1,5 +1,6 @@
 /**
  * Created by Junjie.M on 2017/07/18.
+ * 计量图
  */
 'use strict';
 cBoard.service('chartGaugeService', function () {

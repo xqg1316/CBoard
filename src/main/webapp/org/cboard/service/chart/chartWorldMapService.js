@@ -1,5 +1,6 @@
 /**
  * Created by yalishizhude on 2018/3/14.
+ * 世界地图
  */
 cBoard.service('chartWorldMapService', function ($state, $window) {
     this.render = function (containerDom, option, scope, persist, drill, relations, chartConfig) {
