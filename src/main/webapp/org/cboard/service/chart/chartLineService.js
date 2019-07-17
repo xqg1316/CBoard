@@ -18,8 +18,7 @@ cBoard.service('chartLineService', function ($state, $window) {
         var casted_values = data.series;
         var aggregate_data = data.data;
         var newValuesConfig = data.seriesConfig;
-        var series_data = [];//原有的写法,下面的是修改的写法,让折线图显示数字
-        // var series_data = new Array();
+        var series_data = [];
         var string_keys = _.map(casted_keys, function (key) {
             return key.join('-');
         });
@@ -190,7 +189,7 @@ cBoard.service('chartLineService', function ($state, $window) {
                 item.label = {
                     normal: {
                         /** 每个折线图和柱形图上都显示数字设置为true,不显示设置为false */
-                        show: false,
+                        show: true,
                         position: 'top'
                     }
                 }

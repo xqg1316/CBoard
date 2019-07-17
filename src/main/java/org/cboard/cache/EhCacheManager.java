@@ -30,15 +30,15 @@ public class EhCacheManager<T> implements CacheManager<T>, InitializingBean, Dis
 
     @Override
     public void put(String key, T data, long expire) {
-        cache.put(key, new CacheObject(new Date().getTime(), expire, data));
+        cache.put(key, new CacheObject(System.currentTimeMillis(), expire, data));
     }
 
     @Override
     public T get(String key) {
         CacheObject o = cache.get(key);
-        if (o == null || new Date().getTime() >= o.getT1() + o.getExpire())
+        if (o == null || System.currentTimeMillis() >= o.getT1() + o.getExpire()) {
             return null;
-        else {
+        } else {
             return (T) o.getD();
         }
     }
