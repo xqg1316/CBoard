@@ -11,7 +11,7 @@
             <ttl unit="hours">12</ttl>
         </expiry>
         <resources>
-            <heap unit="MB">100</heap>
+            <heap unit="MB">200</heap>
             <disk unit="GB">500</disk>
         </resources>
     </cache>
